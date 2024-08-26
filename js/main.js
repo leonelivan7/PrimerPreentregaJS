@@ -1,5 +1,5 @@
 function cotizacion() {
-    let pregunta = prompt("Con que moneda queres operar? \n 1)Dolar \n 2)Euro \n 3)Real");
+    let pregunta = prompt("¡Hola, bienvendo! Con que moneda desea operar? \n 1)Dolar \n 2)Euro \n 3)Real");
     if (pregunta == 1) {
             let pregunta2 = prompt("Que cotización queres saber? \n 1)Compra \n 2)Venta");
             if (pregunta2 == 1) {
