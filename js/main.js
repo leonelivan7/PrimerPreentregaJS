@@ -12,7 +12,8 @@ function cotizacion() {
             let pregunta3 = confirm("Queres seguir operando?");
             if (pregunta3 === true) {
                 cotizacion();
-            }
+            } else if {
+                alert("Gracias por operar con nosotros!)")
         }
     else if (pregunta == 2){
             let pregunta2 = prompt("Que cotización queres saber? \n 1)Compra \n 2)Venta");
@@ -26,7 +27,8 @@ function cotizacion() {
             let pregunta3 = confirm("Queres seguir operando?");
             if (pregunta3 === true) {
                 cotizacion();
-            }
+            } else if {
+                alert("Gracias por operar con nosotros!)")
     } else if (pregunta == 3){
             let pregunta2 = prompt("Que cotización queres saber? \n 1)Compra \n 2)Venta");
             if (pregunta2 == 1) {
@@ -39,7 +41,8 @@ function cotizacion() {
             let pregunta3 = confirm("Queres seguir operando?");
             if (pregunta3 === true) {
                 cotizacion();
-            }
+            } else if {
+                alert("Gracias por operar con nosotros!)")
     } else {
         alert("Operación invalida");
     }
